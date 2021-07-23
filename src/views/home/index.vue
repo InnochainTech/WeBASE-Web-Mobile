@@ -35,9 +35,10 @@
                         <van-icon name="wap-nav" color="#888888" size="22px" @click="showPopup" />
                     </div>
                     <div class="van-nav-bar__title" style="height:100%;">
-                        <svg style="width: 90px;height: 100%;fill: currentColor;overflow: hidden;" aria-hidden="true">
-                            <use xlink:href="#wbs-icon-WeBASE"></use>
-                        </svg>
+<!--                        <svg style="width: 90px;height: 100%;fill: currentColor;overflow: hidden;" aria-hidden="true">-->
+<!--                            <use xlink:href="#wbs-icon-WeBASE"></use>-->
+<!--                        </svg>-->
+                        <img style="width: 142px;height: 100%;" aria-hidden="true" src="@/assets/image/logo.jpg" />
                     </div>
                     <div class="van-nav-bar__right">
                         <van-dropdown-menu active-color="#1989fa" class="home-group">

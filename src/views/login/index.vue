@@ -1,9 +1,10 @@
 <template>
     <div class="login">
         <div style="display: flex;justify-content: center;">
-            <svg style="width: 142px;height: 142px;fill: currentColor;overflow: hidden;" aria-hidden="true">
-                <use xlink:href="#wbs-icon-WeBASE"></use>
-            </svg>
+<!--            <svg style="width: 142px;height: 142px;fill: currentColor;overflow: hidden;" aria-hidden="true">-->
+<!--                <use xlink:href="#wbs-icon-WeBASE"></use>-->
+<!--            </svg>-->
+          <img style="width: 142px;height: 40px;fill: currentColor; margin-top: 40px;margin-bottom: 40px" aria-hidden="true" src="@/assets/image/logo.jpg" />
         </div>
         <van-form @submit="onSubmit">
             <van-field v-model="userForm.username" name="用户名" label="用户名" placeholder="用户名" :rules="[{ required: true, message: '请填写用户名' }]" />

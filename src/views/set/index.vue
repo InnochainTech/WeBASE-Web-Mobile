@@ -18,7 +18,7 @@
                 <span>{{ supportVersion }}</span>
             </p>
             <p>
-                <span style="width: 100px;display: inline-block;">WeBASE版本</span>
+                <span style="width: 100px;display: inline-block;">InnoBASE版本</span>
                 <span>{{ webaseVersion }}</span>
             </p>
         </div>
